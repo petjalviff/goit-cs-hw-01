@@ -10,7 +10,7 @@ class TokenType:
     INTEGER = "INTEGER"
     PLUS = "PLUS"
     MINUS = "MINUS"
-    MUL = "MUL" # Додано новий тип токена для множення
+    MUL = "MUL" # Додано токена для множення
     DIV = "DIV" # Додано новий тип токена для ділення
     LPAREN = "LPAREN" # Додано новий тип токена для відкриваючої дужки
     RPAREN = "RPAREN" # Додано новий тип токена для закриваючої дужки
@@ -225,3 +225,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
